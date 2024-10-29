@@ -1,0 +1,27 @@
+.logo {
+    width: 40px
+}
+
+.bg{
+    background-color: rgb(216, 160, 248);
+}
+
+.header-cadastro{
+    background-image: url('../img/depositphotos_596598942-stock-photo-light-purple-gradient-background-dark.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+
+.header-cadastro div {
+    /* cssgradient.io */
+    min-height: 35vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+
+    /* background: rgb(25,1,79);
+    background: linear-gradient(90deg, rgba(25,1,79,0.9920343137254902) 0%, rgba(65,5,85,1) 30%, rgba(126,13,125,1) 63%, rgba(137,24,181,1) 100%); */
+}

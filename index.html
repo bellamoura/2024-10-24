@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 17.10.2024</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="./img/pixel-heart-icons-mf6shpuuuiemr6t6.png" alt="logo" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- DIREITA -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- CENTRO -->
+            <!-- <ul class="navbar-nav m-auto mb-2 mb-lg-0"> -->
+            <!-- ESQUERDA -->
+            <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pg/cadastro.html">Cadastro</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+    <header>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active w-100">
+            <img src="https://www.shutterstock.com/image-illustration/pink-blue-purple-violet-gradient-600nw-794469784.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-vector/blur-gradient-colorful-abstract-background_53876-174837.jpg?q=10&h=200" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.squarespace-cdn.com/content/v1/6387c260c9c5f9050cfe111b/f56859a4-608c-4e40-a0ec-1747b3cba754/gradient_img+%281%29.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+      <main class="container mt-5">
+          <div class="row">
+            <!-- inicio esquerda -->
+                <div class="col-12 col-sm-12 col-md-9">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="https://image-processor-storage.s3.us-west-2.amazonaws.com/uploads/b57628bd98fe9a8f1dbed0d0f599972d/gettyimages-1395900234-84082-video-posterpng.png" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://wallpapersok.com/images/thumbnail/cold-ice-purple-abstract-17ehpprqxvtskpht.webp" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://www.nationalbeautyhouse.com/wp-content/uploads/2019/06/Artistic-Nail-Design-Ultra-VioletRays-Color-Swatch.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <h2 class="display-4">PURPLE</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores asperiores sequi voluptate earum accusamus? Inventore in placeat et aspernatur, obcaecati cupiditate facilis eveniet laboriosam recusandae nisi, repellat ratione atque beatae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, rem.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12">
+                                <div class="mt-3">
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatibus iusto distinctio reprehenderit, blanditiis est dicta obcaecati rem harum animi, eos deleniti accusantium recusandae quas. Vero, voluptate eligendi iusto sunt temporibus vitae rem quia, consectetur quae optio similique! Voluptates, dignissimos illo voluptatibus enim ea autem porro a! Dolorem, illo error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatem voluptate repudiandae a itaque facere fugit id veniam odit iste?
+                                    </p>
+                                </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores asperiores sequi voluptate earum accusamus? Inventore in placeat et aspernatur, obcaecati cupiditate facilis eveniet laboriosam recusandae nisi, repellat ratione atque beatae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, rem.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores asperiores sequi voluptate earum accusamus? Inventore in placeat et aspernatur, obcaecati cupiditate facilis eveniet laboriosam recusandae nisi, repellat ratione atque beatae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, rem.
+                            </p>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores asperiores sequi voluptate earum accusamus? Inventore in placeat et aspernatur, obcaecati cupiditate facilis eveniet laboriosam recusandae nisi, repellat ratione atque beatae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, rem.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores asperiores sequi voluptate earum accusamus? Inventore in placeat et aspernatur, obcaecati cupiditate facilis eveniet laboriosam recusandae nisi, repellat ratione atque beatae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, rem.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores asperiores sequi voluptate earum accusamus? Inventore in placeat et aspernatur, obcaecati cupiditate facilis eveniet laboriosam recusandae nisi, repellat ratione atque beatae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, rem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            <!-- fim esquerda -->
+
+            <!-- inicio direita -->
+                <div class="col-12 col-sm-12 col-md-3">
+                    
+                    <div class="m-2">
+                        <div class="row">
+                        <figure class="col-3">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/013/866/555/small/abstract-colorful-background-purple-maroon-pink-yellow-space-sunset-pastel-skin-light-kids-color-gradiant-illustration-pink-peach-blue-color-gradiant-background-vector.jpg" alt="img4" class="rounded-circle w-100">
+                        </figure>
+                        <div class="col-9">
+                            <div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="row">
+                        <figure class="col-3">
+                            <img src="https://papers.co/wp-content/uploads/papers.co-bj18-cloud-sky-purple-art-1-wallpaper-300x300.jpg" alt="img4" class="rounded-circle w-100">
+                        </figure>
+                        <div class="col-9">
+                            <div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="row">
+                        <figure class="col-3">
+                            <img src="https://vitrinedamadeira.com.br/wp-content/uploads/2022/08/Sem-titulo-11-300x300.jpg" alt="img4" class="rounded-circle w-100">
+                        </figure>
+                        <div class="col-9">
+                            <div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="row">
+                        <figure class="col-3">
+                            <img src="https://shop.joebbit.com/wp-content/uploads/2021/08/pink-background-PROF0PICTURE-300x300.jpg" alt="img4" class="rounded-circle w-100">
+                        </figure>
+                        <div class="col-9">
+                            <div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="row">
+                        <figure class="col-3">
+                            <img src="https://simg.nicepng.com/png/small/73-738368_background-pink-pastel-clouds-sea-kpop-kawaii-aesth.png" alt="img4" class="rounded-circle w-100">
+                        </figure>
+                        <div class="col-9">
+                            <div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="row">
+                        <figure class="col-3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwEAdT-8mpjf2XHgIOFV5UaaFu5L81MW7e8Q&s" alt="img4" class="rounded-circle w-100">
+                        </figure>
+                        <div class="col-9">
+                            <div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="row">
+                        <figure class="col-3">
+                            <img src="https://simg.nicepng.com/png/small/73-738368_background-pink-pastel-clouds-sea-kpop-kawaii-aesth.png" alt="img4" class="rounded-circle w-100">
+                        </figure>
+                        <div class="col-9">
+                            <div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="m-2">
+                        <div class="row">
+                        <figure class="col-3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwEAdT-8mpjf2XHgIOFV5UaaFu5L81MW7e8Q&s" alt="img4" class="rounded-circle w-100">
+                        </figure>
+                        <div class="col-9">
+                            <div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- fim direita -->
+
+          </div>
+      </main>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
